@@ -1,0 +1,55 @@
+
+
+.containerGlobal{
+    height: 100%;
+    width: 100%;
+
+}
+.corGlobal{
+    background-color: rgb(187, 209, 250);
+}
+.bordaGlobal{
+    border-width: 1px;
+    box-shadow: 5px 5px 10px rgb(65, 92, 143);
+}
+.bordaCabecalho{
+    border-style: solid;
+    border-width: 1px;
+}
+
+.corConteudo{
+    background-color: rgb(255, 255, 255);
+}
+.corCabecalho{
+    background-color: rgb(65, 92, 143);
+    
+}
+p{
+    margin: 16px;
+}
+input{
+    margin-left: 16px;
+
+}
+h3{
+    font-size: 20px;
+}
+.bordaPform{
+    border-style: solid ;
+    border-width: 1px;
+
+}
+.espacoGlobal{
+    padding: 2%;
+    margin:2%;
+
+}
+.botao{
+    background-color: rgb(65, 92, 143);
+}
+.botao2{
+    background-color: rgb(65, 92, 143);
+    padding: 2%;
+    margin: 2%;
+
+}

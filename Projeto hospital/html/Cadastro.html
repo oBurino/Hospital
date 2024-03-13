@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head >
+
+<meta charset="UTF-8">
+<title>Pagina de cadastro</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/global.css">
+</head>
+
+<body>
+	<div class="containerGlobal corGlobal ">
+		<div class="container-fluid  bordaGlobal corCabecalho p-3 mb-2 text-white "><!--Cabeçalho-->
+			<div class="row  ">
+				<div class="col-6 d-flex p-3  ">
+					<h1 class="mx-auto"> Hospital Santa House </h1> 
+				</div>		
+				<div class="col-2 p-3">	
+				</div>
+				<div class="col-4 ">
+					<div class=" p-3 mb-2">
+						<ul class="nav justify-content-center  " style="font-size:25px;">
+							<li class="nav-item">
+								<a style="font-size:20px;" class="btn btn-outline-light" type="text/html" href="index.html">Pagina Inicial</a>
+							</li>
+							<li class="nav-item">
+								<a style="font-size:20px;" class="btn btn-outline-light" href="Cadastro.html">Pagina de cadastros</a>
+							</li>
+							<li class="nav-item">
+								<a style="font-size:20px;" class="btn btn-outline-light" href="dadosCadastrados.html">  Lista de reservas </a>
+							</li> 
+					    </ul>			
+					</div>
+				</div>	
+			</div>
+		</div><!--Fim cabeçalho-->
+		<br>
+		<div class="container  corGlobal"><!--Conteudo-->
+			<div class="row bordaGlobal corConteudo " >
+				<div class="col-12 p-3 mb-2">
+					<form>
+						<fieldset>
+							<legend ><h2 class="text-center">Formulario de satisfação do cliente</h2></legend>
+							<div class="bordaPform espacoGlobal">
+								<div>
+									<p>Classifique o atendimento de acordo com a legenda</p>
+									<p>😃 3 Excelente 😐 2 Bom 😔 1 Ruim</p>	
+									<p>O que você achou sobre os serviços prestados:</p>										
+								</div>
+								 <div class="col">
+									<label class="col" for="Atportaria">Portaria</label>																					
+										<p>😃 -😐- 😔</p>
+										<input type="radio" id="Atportaria" value="Excelente" name="Atportaria">										
+										<input type="radio" id="Atportaria" value="Bom" name="Atportaria">										
+										<input type="radio" id="Atportaria" value="Ruim" name="Atportaria">
+								</div>
+								<br>
+							    <div class="col">
+									<label class="col" for="recepcao">Recepção</label>											
+										<p>😃 -😐- 😔</p>
+										<input type="radio" id="recepcao" value="Excelente" name="recepcao">										
+										<input type="radio" id="recepcao" value="Bom" name="recepcao">										
+										<input type="radio" id="recepcao" value="Ruim" name="recepcao">
+								</div>
+								<br>
+								<div class="col">
+									<label class="col" for="atendimentoE">Atendimento de enfermagem</label>																													
+										<p>😃 -😐- 😔</p>
+										<input type="radio" id="atendimentoE" value="Excelente" name="atendimentoE">										
+										<input type="radio" id="atendimentoE" value="Bom" name="atendimentoE">										
+										<input type="radio" id="atendimentoE" value="Ruim" name="atendimentoE">
+								</div>
+								<br>
+								<div class="col">
+									<label class="col" for="atendimentoM">Atendimento médico</label><p>																														
+										</p><p>😃   -😐-   😔</p>
+										<input type="radio" id="atendimentoM" value="Excelente" name="atendimentoM">										
+										<input type="radio" id="atendimentoM" value="Bom" name="atendimentoM">										
+										<input type="radio" id="atendimentoM" value="Ruim" name="atendimentoM">
+								</div>
+								<br>
+								<div class="col">
+									<label class="col" for="higienizacao">Higienização limpeza</label>	
+									<p>😃 -😐- 😔</p>
+										<input type="radio" id="higienizacao" value="Excelente" name="higienizacao">										
+										<input type="radio" id="higienizacao" value="Bom" name="higienizacao">										
+										<input type="radio" id="higienizacao" value="Ruim" name="higienizacao">
+								</div>
+								<br>
+								<div class="col">
+									<label class="col" for="instalacao">Instalações hospitalares</label>											
+										<p>😃 -😐- 😔</p>
+										<input type="radio" id="instalacao" value="Excelente" name="instalacao">										
+										<input type="radio" id="instalacao" value="Bom" name="instalacao">										
+										<input type="radio" id="instalacao" value="Ruim" name="instalacao">
+								</div>
+								<br>
+								<div class="col">
+									<label class="col" for="atendimentoS">Atendimento serviço social</label>											
+										<p>😃 -😐- 😔</p>
+										<input type="radio" id="atendimentoS" value="Excelente" name="atendimentoS">
+										<input type="radio" id="atendimentoS" value="Bom" name="atendimentoS">
+										<input type="radio" id="atendimentoS" value="Ruim" name="atendimentoS">
+								</div>
+								<br>
+								<div class="col">
+									<label class="col" for="servicoN">Serviço de nutrição</label>	
+										<p>😃 -😐- 😔</p>
+										<input type="radio" id="servicoN" value="Excelente" name="servicoN">
+										<input type="radio" id="servicoN" value="Bom" name="servicoN">
+										<input type="radio" id="servicoN" value="Ruim" name="servicoN">
+								</div>
+								<br>
+								<div class="col">
+									<label class="col" for="Pinternamento">Pré internamento</label>	
+										<p>😃 -😐- 😔</p>
+										<input type="radio" id="Pinternamento" value="Excelente" name="Pinternamento">
+										<input type="radio" id="Pinternamento" value="Bom" name="Pinternamento">
+										<input type="radio" id="Pinternamento" value="Ruim" name="Pinternamento">
+								</div>
+							</div>
+							<br>
+							<div class="bordaPform espacoGlobal">
+								<h3>Indicaria o hospital para algum parente ou amigo?</h3>
+								<label for="indicacao">Indicação:</label>
+								<input type="radio" id="indicacao" value="Sim" name="indicacao">Sim
+								<input type="radio" id="indicacao" value="Nao" name="indicacao">Não
+								<h3>Por que?</h3>
+								<textarea cols="20" rows="5" id="RespostaPQ"></textarea>
+							</div> 
+							<br>
+							<div class="bordaPform espacoGlobal">
+								<h3 class="text-center">Identificação do usuario</h3>
+									<br>								
+									<label for="name">Nome:</label>
+									<input type="name" id="nome" name="name"placeholder="Digite seu nome..." required onblur="PegaTecla();">		
+									
+									<label for="email">E-mail:</label>
+									<input type="email" id="email" name="email" placeholder="Digite seu email..." required>
+									
+									<label for="telefone">Tel:</label>
+									<input type="tel" id="telefone" name="telefone" placeholder="(+55)" required>
+									
+									<label for="dataC">Data:</label>
+									<input type="date" id="dataC" name="dataC" required>
+									<br>
+									<input type="date" id="hidden" name="hidden" required hidden>								
+							</div>
+							<div class="bordaPform espacoGlobal">
+								<h3 class="text-center">Uso exclusivo da instituição</h3>
+								<br>	
+								<h3>Retorno ao Cliente</h3>
+									<label for="dataR ">Data:</label>
+										<input type="date" id="dataR" name="dataR" required>
+									<label for="AssRespon">Ass. Responsável:</label>	 
+										<input type="text" id="AssRespon" name="respon" class="" placeholder="Digite sua assinatura..." required>
+									<label for="comentarios">Recado:</label>
+										<input type="text" id="comentarios" name="comentarios"  placeholder="Digite seu comentario..." required>
+							</div>
+						</fieldset>
+						<div class="d-flex justify-content-center">
+						<input type="submit" id="botao" name="botao" class="btn btn-outline botao text-white" value="Enviar formulario" onclick="CadastrarReserva();Validar();">
+						</div>
+					</form>	
+				</div>
+			</div>
+			<br>
+		</div>
+		<br>
+		<div class="container"><!--Rodapé-->
+			<div class="row">
+				<div class="col">
+					<p>
+						Copyright © 2022 | Somente apenas |	Santa House Para mais informações - telefone: 40028922
+					</p>
+				</div>
+			</div>
+
+		</div>	
+	</div>	
+	<script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+	<script src="../js/cadastros.js"></script>
+	<script src="../js/gerenciarReservas.js"></script>
+	<script src="../js/validarForm.js"></script>
+</body>
+</html>
